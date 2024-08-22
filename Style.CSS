@@ -1,0 +1,89 @@
+@charset"utf-8";
+/* CSS Document */
+
+body,
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none
+}
+
+body {
+    background: #000;
+}
+
+#geral {
+    overflow: hidden;
+}
+
+#geral #topo {
+    width: 1500px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 30px
+}
+
+#geral #topo #logo,
+#menu {
+    float: left;
+    width: 400px;
+}
+
+#geral #topo #logo {
+    margin-right: 650px;
+}
+
+#geral #topo #logo a img {
+    border: 0;
+    width: 250px;
+    height: 200px;
+}
+
+#geral #topo #menu {
+    overflow: hidden;
+}
+
+#geral #topo #menu li {
+    float: left;
+    padding: 5px;
+}
+
+#geral #topo #menu li:hover {
+    background: #171717;
+}
+
+
+
+#geral #banner {
+    width: 1500px;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: url(imagens/banner.jpg) no-repeat center;
+    margin-top: 20px
+}
+
+
+
+
+
+.menu:link {
+    font-family: Georgia, "Times new Roman", Times, serif;
+    color: #666666;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu:visited {
+    font-family: Georgia, "Times new Roman", Times, serif;
+    color: #666666;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu:hover {
+    font-family: Georgia, "Times new Roman", Times, serif;
+    color: #666666;
+    text-decoration: underline;
+    font-size: 20px;
+}

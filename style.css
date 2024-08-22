@@ -1,0 +1,91 @@
+/* CSS Document */
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Oswald'); /* Títulos e Sub-Títulos */
+/* font-family: 'Oswald', sans-serif; */
+@import url('https://fonts.googleapis.com/css?family=Signika+Negative'); /* Texto Normal */
+/* font-family: 'Signika Negative', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html
+{
+  height: 100%;
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: #000;
+    height: calc(100% - 1em);
+}
+
+section header nav ul.menu {
+    display: flex;
+    position: fixed;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    top: -1px;
+    width: 100vw;
+    height: 5vw; /*8vw*/
+    background: #8b0000;
+    z-index: 1;
+    font-family: 'Oswald', sans-serif;
+}
+
+section header nav ul.menu li a {
+    display: inline-block;
+    margin: 0 4vw; /*margin: 0 1.7vw;*/
+    text-decoration: none;
+   /* text-indent: -90px;  Impede o uso de border-bottom */
+}
+
+section header nav ul.menu li a.logo {
+    width: 6.5vw; /*6vw*/
+    height: 6.5vw; /*6vw*/
+    border-radius: 50%;
+    background: url("include/img/ninja.jpg") no-repeat center;
+    background-size: cover;
+    transform: translateY(22%); /* Faz com que o logo saia da barra */
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, .5);
+}
+
+section header nav ul.menu li a.link {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.4vw; /*1.8vw*/
+    color: #8a8a8a;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+section header nav ul.menu li a.link:link,
+section header nav ul.menu li a.link:visited {
+    color: #fff;
+}
+
+section header nav ul.menu li a.link:hover,
+section header nav ul.menu li a.link:active {
+    border-bottom: 0.16em solid #e8641b;
+}
+
+section #slideshow {
+    position: relative;
+    /*margin-top: -10px;*/
+    /*width: 100vw;*/
+    height: 84vh;
+}
+
+section #slideshow>div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #fff;
+}
